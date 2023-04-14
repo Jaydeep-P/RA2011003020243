@@ -1,0 +1,43 @@
+.main {
+  padding: 6rem;
+  min-height: 100vh;
+}
+.heading{
+  margin-bottom: 2rem;
+}
+.trainContainer{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(50ch, 1fr) );
+
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 0.5rem;
+
+}
+
+
+.trainCard{
+  width: 100%;
+  min-width: 50ch;
+  border: 1px white solid;
+  flex-grow: 1;
+
+  border-radius: 1rem;
+  padding: 1rem;
+  min-height: 10rem;
+  line-height: 1.5rem;
+
+}
+
+
+.ticketInfoContainer{
+  display: flex;
+  gap: 1rem;
+}
+
+.ticketInfo{
+  margin-top: 1rem;
+  border: 1px gray solid;
+  border-radius: .3rem;
+  padding:.5rem;
+}
